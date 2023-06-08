@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question9</title>
+  <style>
+    .options{
+      background-color:rgb(243, 113, 135);
+      padding: 9px 19px;
+      border: none;
+    }
+    .box{
+      position:relative;
+    }
+    .menu{
+      display: none;
+      position: absolute;
+      width: 190px;
+      max-height:160px;
+      overflow-y: auto;    
+    }
+    a{
+      background-color: whitesmoke;
+      color: black;
+      display:block;
+      padding:12px;
+      text-decoration: none;
+    }
+    .menu a:hover{
+      background-color: #ddd;
+    }
+    .box:hover .menu{
+      display: block ;
+     }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <span class="options">Hover To View Options</span>
+    <div class="menu">
+      <a href="#">Option 1</a>
+      <a href="#">Option 2</a>
+      <a href="#">Option 3</a>
+      <a href="#">Option 4</a>
+      <a href="#">Option 5</a>
+      <a href="#">Option 6</a>
+      <a href="#">Option 7</a>
+      <a href="#">Option 8</a>
+      <a href="#">Option 9</a>
+    </div>  
+  </div>
+</body>
+</html>

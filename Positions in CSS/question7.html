@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question7</title>
+  <style>
+     .Box{
+      width:110px;
+      height:160px;
+      border: 1px solid black;
+      text-align: center;
+      padding-top:10px ;
+      border-radius: 2px;
+      position: absolute;
+      }
+      .card1{
+        background-color:rgb(77, 123, 184);
+        z-index: 1;
+      }
+      .card2{
+        background-color:rgb(12, 180, 54);
+        top:40px;
+        left:20px;
+        z-index: 2;
+      }
+      .card3{
+        background-color: rgb(231, 231, 26);
+        top: 80px;
+        left: 40px;
+        z-index: 3;
+      }
+      .card1:hover{
+        z-index: 4;
+      }
+      .card2:hover{
+        z-index: 4;
+
+      }
+      .img1{
+        margin-top:10px;
+        width:75px;
+        height: 110px;
+      }
+      .img2{
+        margin-top:10px;
+        width:72px;
+        height: 100px;
+      }
+      .img3{
+        margin-top:5px;
+        width:75px;
+        height: 110px;
+      }
+  </style>
+ 
+</head>
+<body>
+  <div >
+    <div class="Box card1">Card 1 <img class="img1" src="image1.jpg" alt="image1"></div>
+    <div class="Box card2">Card 2 <img class="img2" src="image2.jpg" alt="image2"></div>
+    <div class="Box card3">Card 3 <img class="img3" src="Pikachu1.webp" alt="image2"></div>
+   
+  </div>
+</body>
+</html>
