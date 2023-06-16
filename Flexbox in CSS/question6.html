@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question6</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      background-color: black;
+    }
+    .box{
+      max-width: 1200px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 25%;
+    }
+    .search-box{
+      width:100%;
+      border: 1px solid rgb(43, 39, 39);
+      border-radius: 35px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      padding: 5px 16px;
+    }
+    input{
+      height: 100%;
+      width: 90%;
+      background-color: transparent;
+      border: 0;
+      color: #fff;
+      outline: none;
+      font-size: 17px;
+    }
+    .logo{
+      width:250px;
+      color: white;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:10px;
+      width:40%;
+      margin-bottom:25px ;
+    }
+    .src-ico{
+      padding-top:15px;
+      top:8px;
+    }
+    .vc-search{
+      width:30px;
+    }
+    .lense{
+      width:40px;
+    }
+  </style>
+</head>
+<body>
+  <div  class="box">
+    <img class="logo" src="/flexbox/image/google-logo-white.png" alt="Google logo">
+    <div class="search-box">
+      <div>
+        <img class="src-icon" src="/flexbox/image/icon_search.svg" alt="srcicon">
+      </div>
+      <input type="text" />
+      <img class="vc-search" src="/flexbox/image/micicon.png" alt="Voice-search">
+      <img class="lense" src="/flexbox/image/lense.png" alt="lense logo">
+    </div> 
+  </div>
+</body>
+</html>
