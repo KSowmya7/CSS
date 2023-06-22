@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question6</title>
+  <style>
+    body{
+      font-family: "Trebuchet MS";
+    }
+    .main-box{
+      width: 100%;
+      height: 360px;
+      border: 3px solid black;
+      background-color: #5da3fa;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+    }
+    div {
+        height: 25px;
+        padding: 10px 3px;
+        border: 2px dotted black;
+        text-align: center;
+        background-color: #03c6c7;
+    }
+    .row-heading{
+      font-weight: bold;
+      padding: 20px 5px;
+      background-color: rgb(221, 88, 88);
+    }
+    .column-heading{
+      font-weight: bold;
+      background-color: #8d3daf;
+      text-align: center;
+    }
+    h1{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>School Timetable</h1>
+  <div class="main-box">
+          <div class="row-heading">TIME</div>
+          <div class="row-heading">8:00 AM - 9:00 AM</div>
+          <div class="row-heading">9:00 AM - 10:00 AM</div>
+          <div class="row-heading">10:00 AM - 11:00 AM</div>
+          <div class="row-heading">11:00 AM - 12:00 PM</div>
+          <div class="row-heading">12:00 PM - 2:00 PM</div>
+          <div class="row-heading">2:00 PM - 3:00 PM</div>
+          <div class="row-heading">3:00 PM - 4:00 PM</div>
+
+          <div class="column-heading">Monday</div>
+          <div> English</div>
+          <div>Biology</div>
+          <div>Physics</div>
+          <div>Chemistry</div>
+          <div style="background-color: rgb(236, 197, 52);font-weight:bolder;border:none;padding:12px;">L</div>
+          <div  style="column-span: 2; grid-column-start: 7;
+          grid-column-end: 9;
+          background-color: #cad5e2">Chemistry LAB</div>
+
+          <div class="column-heading">Tuesday</div>
+          <div style="column-span: 2; grid-column-start: 2;
+          grid-column-end: 4;
+          background-color: #cad5e2">Biology LAB</div>
+          <div>Physics</div>
+          <div>Chemistry</div>
+          <div style="background-color:rgb(236, 197, 52);font-weight:bolder;border:none;padding:12px;">U</div>
+          <div> English</div>
+          <div>Biology</div>
+
+          <div class="column-heading">Wednesday</div>
+          <div>English</div>
+          <div>Biology</div>
+          <div>Physics</div>
+          <div>Chemistry</div>
+          <div style="background-color:rgb(236, 197, 52);font-weight:bolder;border:none;padding:12px;">N</div>
+          <div  style="column-span: 2; grid-column-start: 7;
+          grid-column-end: 9;
+          background-color: #158a49">Games</div>
+
+          <div class="column-heading">Thursday</div>
+          <div style="column-span: 2; grid-column-start: 2;
+          grid-column-end: 4;
+          background-color: #cad5e2">Biology LAB</div>
+          <div>Physics</div>
+          <div>Chemistry</div>
+          <div style="background-color: rgb(236, 197, 52);font-weight:bolder;;border:none;padding:12px;">C</div>
+          <div>English</div>
+          <div>Biology</div>
+
+          <div class="column-heading">Friday</div>
+          <div>English</div>
+          <div>Biology</div>
+          <div>Physics</div>
+          <div>Chemistry</div>
+          <div style="background-color:rgb(236, 197, 52);font-weight:bolder;;border:none;padding:12px;">H</div>
+          <div style="column-span: 2; grid-column-start: 7;
+          grid-column-end: 9;
+          background-color: #cad5e2">Physics Lab</div>
+
+          <div class="column-heading">Saturday</div>
+          <div style="column-span: 2; grid-column-start: 2;
+          grid-column-end: 4;
+          background-color: #cad5e2">Biology LAB</div>
+          <div>Physics</div>
+          <div>Chemistry</div>
+          <div style="background-color:rgb(236, 197, 52);font-weight:bolder;border:none;padding:12px;">Break</div>
+          <div style="column-span: 2; grid-column-start: 7;
+          grid-column-end: 9;
+          background-color: #158a49">LET OFF</div>
+  </div>
+</body>
+</html>
