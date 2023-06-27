@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question5</title>
+  <style>
+    body{
+      font-family: "Trebuchet MS";
+    }
+    .container{
+      display:grid;
+      grid-template:repeat(2,1fr)/repeat(3,1fr);
+      gap:5px;
+    }
+    img{
+      width:440px;
+      height: 250px;
+      border: 2px solid black;
+      border-radius: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    h1{
+      text-align: center;
+    }
+    @media screen and (max-width:576px) {
+      .container{
+        display: block;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <h1><u>Random Images</u></h1>
+  <div class="container">
+    <div><img src="/flexbox/img7.jpeg" alt="Image1"></div>
+    <div><img src="/flexbox/img12.jpeg" alt="Image2"></div>
+    <div><img src="/flexbox/img3.jpeg" alt="Image3"></div>
+    <div><img src="/flexbox/img4.jpeg" alt="Image4"></div>
+    <div><img src="/flexbox/img5.jpeg" alt="Image5"></div>
+    <div><img src="/flexbox/img6.jpeg" alt="Image6"></div>
+  </div>
+</body>
+</html>

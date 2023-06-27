@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question6</title>
+  <style>
+    body{
+      font-family: "Trebuchet MS";
+
+    }
+    .container{
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+      color: white;
+      padding: 40px;
+      width:95%;
+      height: 74vh;
+      justify-content: space-between;
+      margin-top:5%;
+      gap: 10;
+      padding-left: 50px;
+    }
+    .box1{
+      width:440px;
+    }
+    .text{
+      line-height: 1.9;
+      letter-spacing: 2px;
+    }
+    .box2{
+      width:150px;
+    }
+    h3{
+      font-size: 20px;
+    }
+    input{
+      padding: 15px;
+      padding-right: 95px;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 5px;
+    }
+    button{
+      padding: 15px 110px;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 5px;
+      color:white;
+      background-color: rgb(89, 127, 230);
+    }
+    p{
+      padding: 4px;
+      color: gray;
+    }
+    @media screen and (max-width:576px) {
+      .container{
+        display: block;
+        height: 100%;
+        margin-top: 15%;
+      }
+      
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1">
+      <div>
+        <h3><span>One Card</span></h3>
+        <p class="text">India's best metal credit card. Bulit with fullstack tech. Backed by the principles of simplicity, transparency, and giving back conrol to the user.</p>
+      </div>
+    </div>
+
+    <div class="box2">
+      <div>
+        <h3><span>Navigation</span></h3>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>Offers</p>
+      </div>
+    </div>
+
+    <div class="box3">
+      <div>
+        <h3><span>Support</span></h3>
+        <p>F.A.Q</p>
+        <p>Cookies Policy</p>
+        <p>Terms Of Service</p>
+        <p>Support</p>
+      </div>
+    </div>
+
+    <div class="box4">
+      <div>
+        <h3><span>Newsletter</span></h3>
+        <input type="email" name="email" id="email" placeholder="Your email id here"><br>
+        <button type="button">Subscribe</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

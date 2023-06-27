@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question3</title>
+  <style>
+    body{
+      font-family: "Trebuchet MS";
+    }
+    nav{
+      height:50px;
+      border: 1px solid black ;
+      background-color:rgb(37, 37, 37);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    img{
+      padding: 5px 25px;
+    }
+    a{
+      text-decoration: none;
+      padding: 15px;
+      color: white;
+    }
+    button{
+      padding: 4px 30px;
+      margin-right: 20px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    .icon{
+      display: none;
+    }
+    .container{
+      padding: 15px;
+    }
+    .box{
+      display: flex;
+      align-items: center;
+    }
+    .text{
+      text-align: left;
+      padding-left: 40px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+
+    }
+    .text1{
+      font-size: 30px;
+      font-weight: 800;
+      text-align: left;
+      margin-bottom: 15px;
+    }
+    .text2{
+      font-size: 50px;
+      color: rgba(24,147,247,1);
+      text-align: left;
+      line-height: 93px;
+    }
+    .text3{
+      font-size: 18px;
+      color:#1892F7;
+      text-align: left;
+      width:10px;
+    }
+    .banks{
+      width:300px;
+      padding: 0;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+    .para1{
+      font-weight: 500;
+      line-height: 1.3;
+      text-align: left;
+    }
+    video{
+      margin-left: 90px;
+    }
+    .section-2{
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .box1{
+      padding: 20px;
+    }
+    .text1{
+      font-size: 400;
+      line-height: 1.3;
+      text-align: center;
+    }
+    .box1>h1{
+      font-size : 40px;
+      color: rgb(30, 30, 165);
+      padding-top: 15px;
+    }
+
+    @media screen and (max-width:576px) {
+      nav{
+        height: 100px;
+      }
+      a,button{
+        display: none;
+      }
+      .icon{
+      display: block;
+      width: 50px;
+    }
+    .box{
+      display: flex;
+      flex-direction: column;
+    }
+    .text{
+      padding-left: 0;
+
+    }
+    video{
+      margin: 0;
+      width: 90%;
+    }
+    .section-2{
+      background-color:white;
+    }
+    .text1{
+      color: rgb(34, 32, 32);
+    }
+    }
+    </style>
+</head>
+<body>
+  <nav>
+    <img src="/Grid/image/6087f2b060c7a92408bac811_logo.svg" alt="Logo">
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <button>Login</button>
+    <img class="icon" src="/responsive-design/download.png" alt="menu">
+  </nav>
+
+  <section class="section-1">
+    <div class="container">
+      <div class="box">
+        <div class="text">
+          <div><span class="text1">Say Hi To</span></div>  
+          <div><span class="text2">OneCard</span></div>
+          <div><span class="text3">Co-branded Card Issuers :</span></div>  
+
+          <div>
+            <img class="banks" src="/responsive-design/image/Banking_partners.png" alt="Banking_partners">
+          </div>
+          <div>
+            <p class="para1"> India's best metal credit card. Built with full-stack tech.
+              Backed by the <br> principles of simplicity,transparency, and giving back control to the user.</p>
+          </div>
+        </div>
+
+        <div class="video">
+          <video controls autoplay muted loop  src="/responsive-design/image/Video.mp4" width="100%" height="550px"></video>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="bottom">
+      <div class="box1">
+        <h1>No Hidden Fees Ever.</h1>
+        <div class="text1">
+          <span>No Joining Fees.</span><br>
+          <span>No Annual Fees.</span><br>
+          <span>No Reward Redemption Fees.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
