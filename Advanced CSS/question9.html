@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question9</title>
+  <style> 
+  :root{
+    --color-grey:rgb(128, 130, 133);
+    --color-white:white;
+    --color-darkgrey:rgb(38, 41, 43);
+    
+  }
+  .container{
+    width:450px;
+    border: 1px solid var(--color-grey);
+    background-color:var(--color-darkgrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  img{
+    width:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1{
+  text-align: center;
+  color: var(--color-white);
+  }
+  p{
+    color: var(--color-grey);
+    overflow-y: auto;
+    max-height: 200px;
+  }
+  ::-webkit-scrollbar{
+    width: 2px;
+  }
+  /* ::-webkit-scrollbar-track{
+    background-color: rgb(54, 52, 52);
+  } */
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--color-grey);
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/Advanced CSS/Image/Apple_Logo.svg" alt="Logo">
+    <div class="text">
+      <h1>Apple Inc</h1>
+      <p>
+        Apple Inc., founded on April 1, 1976, by Steve Jobs, Steve Wozniak,
+        and Ronald Wayne, is a multinational technology company headquartered
+        in Cupertino, California. <br><br>
+        Apple is renowned for its innovative consumer electronics, software,
+        and online services, including the iPhone, iPad, Mac, Apple Watch, and
+        Apple TV. <br><br>
+        The company's success can be attributed to its commitment to sleek
+        design, intuitive user interfaces, and seamless integration between
+        hardware and software. <br><br>
+        Apple's ecosystem, centered around services like iCloud, iTunes, and
+        the App Store, has created a loyal customer base and fosters an
+        interconnected user experience across its products. <br><br>
+        Under the leadership of Steve Jobs, Apple revolutionized the
+        technology industry with groundbreaking products like the iPod,
+        iPhone, and iPad, setting new standards for smartphones, portable
+        music players, and tablets.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
